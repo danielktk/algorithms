@@ -9,6 +9,7 @@ public class Main {
     static int[] dp;
 
     static int minimumCalculator(int number) {
+        //test222
         if (number == 1)
             return 0;
 
