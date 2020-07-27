@@ -85,6 +85,11 @@ public class Main {
         System.out.println(result);
 
         br.close();
+
+        dp = new int[goal + 1];
+
+        System.out.println(minimumCalculator(goal));
+
         /*
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int X = Integer.parseInt(br.readLine());
